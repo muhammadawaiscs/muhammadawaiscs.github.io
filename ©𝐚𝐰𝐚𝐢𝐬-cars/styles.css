@@ -239,5 +239,44 @@ h2{
   padding-top: 75px;
 }
 
+@media screen and (max-width: 768px) {
+    .top-bar {
+        width: 100%; /* Adjust the width as needed */
+        padding: 5px; /* Adjust the padding as needed */
+    }
+    .top-bar a {
+        margin: 2px; /* Adjust the margin as needed */
+        font-size: 12px; /* Adjust the font size as needed */
+    }
+}
 
 
+/* Default styles for larger screens */
+.top-bar {
+    width: 1510px;
+    padding: 9px;
+    background-color: black;
+    display: flex;
+    border-radius: 29px;
+}
+
+.top-bar a {
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: solid;
+    margin: 6px;
+    color: white;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .top-bar {
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .top-bar a {
+        margin: 2px;
+        font-size: 12px;
+    }
+}
