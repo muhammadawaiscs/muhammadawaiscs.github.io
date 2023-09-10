@@ -280,3 +280,33 @@ h2{
         font-size: 12px;
     }
 }
+
+#box {
+    background-size: cover;
+}
+
+#content {
+    background-size: cover;
+}
+
+#box {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 28px;
+    width: 100%; /* Adjust as needed */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    margin-left: 0; /* Remove margin for mobile */
+    height: auto; /* Let the height adjust based on content */
+    overflow: auto;
+}
+
+#content {
+    color: navy;
+    text-align: center;
+    margin-left: 0; /* Remove margin for mobile */
+    border-radius: 28px;
+    background-size: cover; /* Ensure the background image covers the entire element */
+    overflow: auto;
+}
+
+
